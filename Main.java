@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        int bill = 10000;                         // Последние две цифры это копейки
-        int paymentBill = 1000;                   // Последние две цифры это копейки
+        int bill = 10000;                         
+        int paymentBill = 1000;
         int bonus;
 
         if (paymentBill >= 1000) {
@@ -15,5 +15,3 @@ public class Main {
         System.out.println(billAfterFill);
     }
 }
-
-    
